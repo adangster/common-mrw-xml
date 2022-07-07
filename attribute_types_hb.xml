@@ -225,7 +225,6 @@
   </attribute>
   <attribute>
     <description>Defines the AVSBus (0, 1 or 2) which has the indicated rail VRM [index] -&gt;0: VDD; 1: VCS; 2: VDN; 3: VIO Producer:Machine Readable Workbook Consumers: p10_set_evid; p10_set_voltage (tool) -&gt; Global Pstate Parameter Block (GPPB) for PGPE; OCC Pstate Parameter Block OCC *MOST* systems use Bus 0 for VDD, Bus 1 for VCS, Bus 2 for VIO and VDN. If is not the case, the value must be appropriately set by the platform (eg MRW or equivalent)</description>
-   <global />
     <hwpfToHbAttrMap>
       <id>ATTR_AVSBUS_BUSNUM</id>
       <macro>DIRECT</macro>
@@ -255,7 +254,6 @@
   </attribute>
   <attribute>
     <description>Defines the AVSBus rail selector number (0 - 15) for the VRM on the bus by ATTR_AVSBUS_BUSNUM[x]. [index] -&gt;0: VDD; 1: VCS; 2: VDN; 3: VIO Producer:Machine Readable Workbook Consumers: p10_set_evid; p10_set_voltage (tool) -&gt; Global Pstate Parameter Block (GPPB) for PGPE OCC Pstate Parameter Block OCC *MOST* systems use Bus 0 for VDD, Bus 1 for VCS, Bus 2 for VIO and VDN. If is not the case, the value must be appropriately set by the platform (eg or equivalent)</description>
-   <global />
     <hwpfToHbAttrMap>
       <id>ATTR_AVSBUS_RAIL</id>
       <macro>DIRECT</macro>
@@ -480,7 +478,6 @@
   </attribute>
   <attribute>
     <description>Processor fabric topology mode, determines format of the topology ID. MODE0 = GGG_C (max 8x2) MODE1 = GG_CC (max 4x4) Provided by the MRW.</description>
-    <global />
     <hwpfToHbAttrMap>
       <id>ATTR_PROC_FABRIC_TOPOLOGY_MODE</id>
       <macro>DIRECT</macro>
@@ -552,7 +549,6 @@
   </attribute>
   <attribute>
     <description>Indicates whether sublinks are statically intended to be split to service endpoints on distinctly different remote chips</description>
-   <global />
     <hwpfToHbAttrMap>
       <id>ATTR_IOHS_LINK_SPLIT</id>
       <macro>DIRECT</macro>
@@ -1130,7 +1126,6 @@
   </attribute>
   <attribute>
     <description>RCS PLL input for TOD Filter PLL</description>
-   <global />
     <hwpfToHbAttrMap>
       <id>ATTR_CLOCK_MUX0A_RCS_PLL_INPUT</id>
       <macro>DIRECT</macro>
@@ -1144,7 +1139,6 @@
   </attribute>
   <attribute>
     <description>RCS PLL input for Nest Filter PLL</description>
-   <global />
     <hwpfToHbAttrMap>
       <id>ATTR_CLOCK_MUX0B_RCS_PLL_INPUT</id>
       <macro>DIRECT</macro>
@@ -1158,7 +1152,6 @@
   </attribute>
   <attribute>
     <description>RCS PLL input for IO Filter PLL</description>
-   <global />
     <hwpfToHbAttrMap>
       <id>ATTR_CLOCK_MUX0C_RCS_PLL_INPUT</id>
       <macro>DIRECT</macro>
@@ -1172,7 +1165,6 @@
   </attribute>
   <attribute>
     <description>RCS PLL input for IO Spread Spectrum Filter PLL</description>
-   <global />
     <hwpfToHbAttrMap>
       <id>ATTR_CLOCK_MUX0D_RCS_PLL_INPUT</id>
       <macro>DIRECT</macro>
@@ -1186,7 +1178,6 @@
   </attribute>
   <attribute>
     <description>MUX 1 input</description>
-    <global />
     <hwpfToHbAttrMap>
       <id>ATTR_CLOCK_MUX1_INPUT</id>
       <macro>DIRECT</macro>
@@ -1200,7 +1191,6 @@
   </attribute>
   <attribute>
     <description>MUX 2a input</description>
-    <global />
     <hwpfToHbAttrMap>
       <id>ATTR_CLOCK_MUX2A_INPUT</id>
       <macro>DIRECT</macro>
@@ -1214,7 +1204,6 @@
   </attribute>
   <attribute>
     <description>MUX 2b input</description>
-    <global />
     <hwpfToHbAttrMap>
       <id>ATTR_CLOCK_MUX2B_INPUT</id>
       <macro>DIRECT</macro>
@@ -1228,7 +1217,6 @@
   </attribute>
   <attribute>
     <description>MUX 3 input</description>
-    <global />
     <hwpfToHbAttrMap>
       <id>ATTR_CLOCK_MUX3_INPUT</id>
       <macro>DIRECT</macro>
@@ -1242,7 +1230,6 @@
   </attribute>
   <attribute>
     <description>PAU DPLL input from Filter PLLs</description>
-    <global />
     <hwpfToHbAttrMap>
       <id>ATTR_CLOCK_MUX10_PAU_DPLL_INPUT</id>
       <macro>DIRECT</macro>
@@ -1256,7 +1243,6 @@
   </attribute>
   <attribute>
     <description>NEST DPLL input from Filter PLLs</description>
-    <global />
     <hwpfToHbAttrMap>
       <id>ATTR_CLOCK_MUX11_NEST_DPLL_INPUT</id>
       <macro>DIRECT</macro>
@@ -1270,7 +1256,6 @@
   </attribute>
   <attribute>
     <description>OMI LCPLL input</description>
-    <global />
     <hwpfToHbAttrMap>
       <id>ATTR_CLOCK_MUX12_OMI_LCPLL_INPUT</id>
       <macro>DIRECT</macro>
@@ -1284,7 +1269,6 @@
   </attribute>
   <attribute>
     <description>Mux 13 input</description>
-    <global />
     <hwpfToHbAttrMap>
       <id>ATTR_CLOCK_MUX13_OPT_133_SOURCE_INPUT</id>
       <macro>DIRECT</macro>
@@ -1298,7 +1282,6 @@
   </attribute>
   <attribute>
     <description>Mux 14 input</description>
-    <global />
     <hwpfToHbAttrMap>
       <id>ATTR_CLOCK_MUX14_OPT_156_SOURCE_INPUT</id>
       <macro>DIRECT</macro>
@@ -1312,7 +1295,6 @@
   </attribute>
   <attribute>
     <description>IOHS LCPLL input IOHS0: Mux15 IOHS1: Mux16 (no Mux13 input) IOHS2: Mux17 (no Mux13 input) IOHS3: Mux18 IOHS4: Mux19 IOHS5: Mux20 IOHS6: Mux21 IOHS7: Mux22</description>
-    <global />
     <hwpfToHbAttrMap>
       <id>ATTR_CLOCK_MUX_IOHS_LCPLL_INPUT</id>
       <macro>DIRECT</macro>
@@ -1328,7 +1310,6 @@
   </attribute>
   <attribute>
     <description>Mux 23 input from FPLL</description>
-    <global />
     <hwpfToHbAttrMap>
       <id>ATTR_CLOCK_MUX23_PCI_INPUT</id>
       <macro>DIRECT</macro>
@@ -1357,7 +1338,6 @@
   </attribute>
   <attribute>
     <description>setup clock mux settings for TOD Refclock input 0b0 = 32 MHz LPC reference clock 0b1 = 16 MHz I/O Filter PLL Output</description>
-    <global />
     <hwpfToHbAttrMap>
       <id>ATTR_CLOCK_PLL_MUX_TOD</id>
       <macro>DIRECT</macro>
