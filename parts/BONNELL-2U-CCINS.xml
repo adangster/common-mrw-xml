@@ -23,7 +23,8 @@
 	<child_id>Bonnell-2U-CCINS.PowerSupply-800W</child_id>
 	<child_id>Bonnell-2U-CCINS.ioSCM-DD20-8BC-240W</child_id>
 	<child_id>Bonnell-2U-CCINS.ioSCM-DD20-6BC-195W</child_id>
-	<child_id>Bonnell-2U-CCINS.ioSCM-DD20-4BC-180W</child_id>   
+	<child_id>Bonnell-2U-CCINS.ioSCM-DD20-4BC-180W</child_id>  
+   <child_id>Bonnell-2U-CCINS.ioSCM-DD20-1BC-180W</child_id>
 	<child_id>Bonnell-2U-CCINS.Fan</child_id>
 	<attribute>
 		<id>CLASS</id>
@@ -533,6 +534,67 @@
 	</attribute>
 </targetPart>
 <targetPart>
+	<id>Bonnell-2U-CCINS.ioSCM-DD20-1BC-180W</id>
+	<type>override-ccin-cpu</type>
+	<is_root>false</is_root>
+	<instance_name>Bonnell-2U-CCINS.ioSCM-DD20-1BC-180W</instance_name>
+	<position>-1</position>
+	<parent>targetoverride</parent>
+	<parent_type>targetoverride</parent_type>
+	<attribute>
+		<id>CARD_USE</id>
+		<default>FIELD</default>
+	</attribute>
+	<attribute>
+		<id>CCIN</id>
+		<default>5C88</default>
+	</attribute>
+	<attribute>
+		<id>CLASS</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>CORES</id>
+		<default>1BC</default>
+	</attribute>
+	<attribute>
+		<id>EC_LEVEL</id>
+		<default>2.03</default>
+	</attribute>
+	<attribute>
+		<id>FREQUENCY</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>GROUP_KEY</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>TARGET_OVERRIDE</default>
+	</attribute>
+	<attribute>
+		<id>PART_NUMBER</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>RU_TYPE</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>SUPPORTED_MTMS</id>
+		<default>9105-22B</default>
+	</attribute>
+	<attribute>
+		<id>TARGET_NAME</id>
+		<default>Godel ioSCM ITC DD2.02 1BC 180W</default>
+	</attribute>
+	<attribute>
+		<id>TYPE</id>
+		<default>NA</default>
+	</attribute>
+</targetPart>
+<targetPart>
 	<id>Bonnell-2U-CCINS.ioSCM-DD20-4BC-180W</id>
 	<type>override-ccin-cpu</type>
 	<is_root>false</is_root>
@@ -542,11 +604,11 @@
 	<parent_type>targetoverride</parent_type>
 	<attribute>
 		<id>CARD_USE</id>
-		<default>LAB_ONLY</default>
+		<default>FIELD</default>
 	</attribute>
 	<attribute>
 		<id>CCIN</id>
-		<default>5C64</default>
+		<default>5C88</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -558,7 +620,7 @@
 	</attribute>
 	<attribute>
 		<id>EC_LEVEL</id>
-		<default>2.0</default>
+		<default>2.03</default>
 	</attribute>
 	<attribute>
 		<id>FREQUENCY</id>
@@ -619,7 +681,7 @@
 	</attribute>
 	<attribute>
 		<id>EC_LEVEL</id>
-		<default>2.02</default>
+		<default>2.03</default>
 	</attribute>
 	<attribute>
 		<id>FREQUENCY</id>
@@ -668,7 +730,7 @@
 	</attribute>
 	<attribute>
 		<id>CCIN</id>
-		<default>5C88</default>
+		<default>5C89</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -680,7 +742,7 @@
 	</attribute>
 	<attribute>
 		<id>EC_LEVEL</id>
-		<default>2.02</default>
+		<default>2.03</default>
 	</attribute>
 	<attribute>
 		<id>FREQUENCY</id>
